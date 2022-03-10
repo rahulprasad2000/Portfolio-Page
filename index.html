@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- <script src="https://kit.fontawesome.com/2d51b7d1e6.js" crossorigin="anonymous"></script> -->
+</head>
+<body>
+	<script type="" src="javas.js"></script>
+	<div class="hero">
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Me</a></li>
+				<li><a href="#">Qualifications</a></li>
+				<li><a href="#">Skills</a></li>
+				<li><a href="#">Contact Me</a></li>
+			</ul>
+			
+		</nav>
+
+		<div class="content">
+			<h4>Hello, my name is</h4>
+			<h1>Rahul <span>Prasad</span></h1>
+			<h3>I'am a Software Developer Intern</h3>
+			<div class="newslatter">
+				<!-- <form>
+					<input type="email" name="email" id="mail" placeholder="Enter Your Email">
+					<input type="submit" name="submit" value="Lets Start">
+				</form> -->
+				<a href="#" class="btn">Download CV</a>
+			</div>
+		</div>
+	</div>
+
+	<!----About section start---->
+	<section class="about">
+		<div class="main">
+			<img src="img/main-img.png">
+			<div class="about-text">
+				<h2 style="color: yellow;">About Me</h2>
+				<h5>Student <span>& Software Engineer Intern</span></h5>
+				<p>I am a Student of B.Tech(C.S.E) 4th year from college named Graphic Era Deemed To Be University, and Currently I am working as an Software Engineer Intern in the Company named Enquero Global</p>
+				<button type="button">Let's Talk</button>
+			</div>
+		</div>
+	</section>
+
+	<!-----service section start----------->
+	<div class="service">
+		<div class="title">
+			<h2 style="color: yellow;">Qualifications & skills</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+				<!-- <i class="fa-solid fa-gears"></i> -->
+				<h5>Education</h5>
+				<div class="pra">
+					<p>B.Tech(C.S.E) from Graphic Era Deemed To Be University</p>
+					<p>12th From Shri Guru Ram Rai Public School, Bombay Bagh, Dehradun</p>
+					<p>10th from Atomic Energy Central School Turamdih,Jamshedpur,Jharkhand</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<!-- <i class="far fa-user"></i> -->
+				<h5 style="color: yellow;">Technical Skills</h5>
+				<div class="pra">
+					<p id="p1">Java,C++</p>
+					<p style="text-align: center;">
+						<input type="text" id="inp1"/>
+						<button id="btn1" onclick="func1()">Add Skills</button>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<!-- <i class="far fa-bell"></i> -->
+				<h5>Projects</h5>
+				<div class="pra">
+					<p>Ecommerce Store For Covid-19 Essentials Products</p>
+					<p>Real Time Emotion DeTector</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!------Contact Me------>
+	<!-- <div class="contact-me">
+		<p>Photogrophy</p>
+		<a class="button-two" href="#">Hire Me</a>
+	</div> -->
+	<section id="portfolio">
+		<h1 class="headings" style="color: yellow;">Photography</h1>
+		<div class="gallery">
+			<a target="_blank" href="img_5terre.jpg">
+				<img src="./img/img1.jpg" alt="Cinque Terre" width="600" height="400">
+			  </a>
+			  <div class="desc">Chakrata,Uttarakhand</div>
+			</div>
+			
+			<div class="gallery">
+			  <a target="_blank" href="img_forest.jpg">
+				<img src="./img/img2.jpg" alt="Forest" width="600" height="400">
+			  </a>
+			  <div class="desc">Sissu,Himachal Pradesh</div>
+			</div>
+			
+			<div class="gallery">
+			  <a target="_blank" href="img_lights.jpg">
+				<img src="./img/img3.jpg" alt="Northern Lights" width="600" height="400">
+			  </a>
+			  <div class="desc">Itharna Temple</div>
+			</div>
+			
+			<div class="gallery">
+			  <a target="_blank" href="img_mountains.jpg">
+				<img src="./img/img4.jpg" alt="Mountains" width="600" height="400">
+			  </a>
+			  <div class="desc">Rishikesh,Uttarakhand</div>
+		</div>
+		<div class="gallery">
+			<a target="_blank" href="img_mountains.jpg">
+			  <img src="./img/img5.jpg" alt="Mountains" width="600" height="400">
+			</a>
+			<div class="desc">Pacific Mall,Dehradun</div>
+	  </div>
+	 </section>
+
+	<!------footer start--------->
+	<footer>
+		<p>Rahul Prasad</p>
+		<p>For more Contact me on the below social media platforms.</p>
+		<div class="social">
+			<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-dribbble"></i></a>
+			<a href="#"><i class="fa-brands fa-github"></i></a>
+		</div>
+		<p class="end">CopyRight By Rahul Prasad</p>
+	</footer>
+</body>
+</html>
